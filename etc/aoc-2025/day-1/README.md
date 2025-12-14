@@ -62,7 +62,7 @@ Solution
 
 - How to run:
 
-    python solve.py input.txt
+  python solve.py input.txt
 
 - Result for the provided `input.txt`:
 

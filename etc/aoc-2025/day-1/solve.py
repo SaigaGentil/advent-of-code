@@ -9,6 +9,7 @@ If no input_file is provided, it uses `input.txt` in the same directory.
 from pathlib import Path
 import sys
 
+
 def count_zero_points(lines, start=50, modulo=100):
     pos = start
     zeros = 0
