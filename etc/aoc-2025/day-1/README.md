@@ -64,6 +64,8 @@ Solution
 
   python solve.py input.txt
 
-- Result for the provided `input.txt`:
+- Run tests with pytest (verbose by default):
 
-- Password (number of times dial points at 0): 1034
+  pytest etc/aoc-2025/day-1
+
+  Pytest is configured to run in verbose mode via `pytest.ini` (shows expanded test names and a summary).
