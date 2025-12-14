@@ -46,22 +46,23 @@ def main(argv=None):
     return 0
 
 
-def _test_example():
-    example = [
-        'L68',
-        'L30',
-        'R48',
-        'L5',
-        'R60',
-        'L55',
-        'L1',
-        'L99',
-        'R14',
-        'L82',
-    ]
-    assert count_zero_points(example) == 3
+# Not needed for now, moved to a separate test file
+# def _test_example():
+#     example = [
+#         'L68',
+#         'L30',
+#         'R48',
+#         'L5',
+#         'R60',
+#         'L55',
+#         'L1',
+#         'L99',
+#         'R14',
+#         'L82',
+#     ]
+#     assert count_zero_points(example) == 3
 
 
 if __name__ == '__main__':
-    _test_example()
+    # _test_example()
     raise SystemExit(main())
