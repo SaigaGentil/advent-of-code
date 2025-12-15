@@ -23,8 +23,15 @@ from solve import count_zero_points
             ],
             3,
         ),
-        (["L1", "", "R1", "\n", "L0"], count_zero_points(
-            [l for l in ["L1", "", "R1", "\n", "L0"] if l.strip()])),
+        (
+            [
+                "L1",
+                "",
+                "R1",
+                "\n",
+                "L0"
+            ],
+            count_zero_points([l for l in ["L1", "", "R1", "\n", "L0"] if l.strip()])),
     ],
 )
 def test_examples(lines, expected):
