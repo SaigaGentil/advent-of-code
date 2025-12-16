@@ -27,7 +27,7 @@ def count_zero_points(lines, start=50, modulo=100):
             raise ValueError(f"Unknown direction: {dir_}")
         if pos == 0:
             zeros += 1
-    return zeros
+    return (f"The password is {zeros}")
 
 
 def main(argv=None):
