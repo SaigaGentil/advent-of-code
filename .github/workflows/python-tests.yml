@@ -24,4 +24,4 @@ jobs:
           if [ -f requirements-dev.txt ]; then python -m pip install -r requirements-dev.txt; fi
       - name: Run tests
         run: |
-          pytest etc/aoc-2025/day-1
+          pytest etc/aoc-2025/day-1/puzzle-1
